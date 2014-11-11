@@ -16,7 +16,7 @@ $(document).ready(function(e) {
 		escribehistoria('la app se conecto a la red');
 	},false);//se conecto
 	document.addEventListener("offline",function(){
-		escribehisroria('la app se desconecto de la red');
+		escribehistoria('la app se desconecto de la red');
 	},false);//se desconecta
 	},false);//ready device
 	 
